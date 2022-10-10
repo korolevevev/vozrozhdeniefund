@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Благотворительный фонд "Возрождение природы"</title>
+    <link href="./favicon.svg" rel="shortcut icon" type="image/svg+xml"/>
+    <link href="./assets/css/style.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap"
+            rel="stylesheet"
+    />
+</head>
+<body>
+<header class="header" data-header>
+    <div class="container">
+        <h1>
+            <a class="logo" href="#">Возрождение природы</a>
+        </h1>
+        <select class="lang-switch" name="language">
+            <option value="english">Русский</option>
+            <option value="spanish">English</option>
+        </select>
+
+        <button aria-label="Open Menu" class="nav-open-btn" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+        <nav class="navbar" data-navbar>
+            <button
+                    aria-label="Close Menu"
+                    class="nav-close-btn"
+                    data-nav-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <a class="logo" href="#">Возрождение природы</a>
+            <ul class="navbar-list">
+                <li>
+                    <a class="navbar-link" data-nav-link href="#home">
+                        <span>Главная</span>
+                        <ion-icon
+                                aria-hidden="true"
+                                name="chevron-forward-outline"
+                        ></ion-icon>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="navbar-link" data-nav-link href="#about">
+                        <span>Фонд</span>
+                        <ion-icon
+                                aria-hidden="true"
+                                name="chevron-forward-outline"
+                        ></ion-icon>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="navbar-link" data-nav-link href="#service">
+                        <span>Деятельность</span>
+                        <ion-icon
+                                aria-hidden="true"
+                                name="chevron-forward-outline"
+                        ></ion-icon>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="navbar-link" data-nav-link href="#event">
+                        <span>События</span>
+                        <ion-icon
+                                aria-hidden="true"
+                                name="chevron-forward-outline"
+                        ></ion-icon>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="navbar-link" data-nav-link href="#">
+                        <span>Контакты</span>
+                        <ion-icon
+                                aria-hidden="true"
+                                name="chevron-forward-outline"
+                        ></ion-icon>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="header-action">
+            <button aria-label="Search" class="search-btn">
+                <ion-icon name="search-outline"></ion-icon>
+            </button>
+
+            <button class="btn btn-primary">
+                <span><a href="#donate">Помочь</a></span>
+                <ion-icon aria-hidden="true" name="heart-outline"></ion-icon>
+            </button>
+        </div>
+    </div>
+</header>
+
+<main>
+    <article>
+        <section class="hero" id="home">
+            <div class="container">
+                <p class="section-subtitle">
+                    <img alt="Wavy line" height="7" src="./assets/images/subtitle-img-white.png" width="32"/>
+                    <span>Добро пожаловать!</span>
+                </p>
+
+                <h2 class="h1 hero-title">
+                    Благотворительный фонд <strong>Возрождение природы</strong>
+                </h2>
+
+                <p class="hero-text">
+                    Целью создания Благотворительного Фонда «Возрождение Природы» является разработка и реализация
+                    программ по охране окружающей среды и сохранению и восстановлению
+                    биоразнообразия нашей страны.
+                </p>
+
+                <button class="btn btn-primary">
+                    <span>Помочь</span>
+                    <ion-icon aria-hidden="true" name="heart-outline"></ion-icon>
+                </button>
+            </div>
+        </section>
+
+        <section class="section features">
+            <div class="container">
+                <ul class="features-list">
+                    <li class="features-item">
+                        <div class="item-icon">
+                            <ion-icon name="shield-checkmark-outline"></ion-icon>
+                        </div>
+
+                        <div>
+                            <h3 class="h4 item-title">Гуманность</h3>
+
+                            <p class="item-text">
+                                К животному и растительному миру
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="features-item">
+                        <div class="item-icon">
+                            <ion-icon name="water-outline"></ion-icon>
+                        </div>
+
+                        <div>
+                            <h3 class="h4 item-title">Независимость</h3>
+
+                            <p class="item-text">
+                                Работа фонда основана на пожертвованиях
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="features-item">
+                        <div class="item-icon">
+                            <ion-icon name="leaf-outline"></ion-icon>
+                        </div>
+
+                        <div>
+                            <h3 class="h4 item-title">Прозрачность</h3>
+
+                            <p class="item-text">
+                                Мы готовы к прозрачному партнёрству.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="features-item">
+                        <div class="item-icon">
+                            <ion-icon name="snow-outline"></ion-icon>
+                        </div>
+
+                        <div>
+                            <h3 class="h4 item-title">Опора на знания</h3>
+
+                            <p class="item-text">
+                                Мы опираемся в своей деятельности на научные знания.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section about" id="about">
+            <div class="container">
+                <div class="about-banner">
+                    <h2 class="deco-title">О фонде</h2>
+                    <img alt="" class="deco-img" height="261" src="./assets/images/deco-img.png" width="58"/>
+
+                    <div class="banner-row">
+                        <div class="banner-col">
+                            <img alt="Tiger" class="about-img w-100" height="380" loading="lazy"
+                                 src="./assets/images/about-banner-1.jpg" width="315"/>
+                            <img alt="Panda" class="about-img about-img-2 w-100" height="250" loading="lazy"
+                                 src="./assets/images/about-banner-2.jpg" width="386"/>
+                        </div>
+                        <div class="banner-col">
+                            <img alt="Elephant" class="about-img about-img-3 w-100" height="277" loading="lazy"
+                                 src="./assets/images/about-banner-3.jpg" width="250"/>
+                            <img alt="Deer" class="about-img w-100" height="380" loading="lazy"
+                                 src="./assets/images/about-banner-4.jpg" width="315"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <p class="section-subtitle">
+                        <img alt="Wavy line" height="7" width="32"
+                             src="./assets/images/subtitle-img-green.png"/>
+                        <span>О фонде</span>
+                    </p>
+
+                    <h2 class="h2 section-title">Миссия фонда <strong>"Возрождение природы"</strong></h2>
+
+                    <ul class="tab-nav">
+                        <li>
+                            <button class="tab-btn active">Фонд сегодня</button>
+                        </li>
+                        <li>
+                            <button class="tab-btn">Будущее фонда</button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <p class="section-text">
+                            Деятельность Благотворительного Фонда «Возрождение Природы» в первую очередь направлена на
+                            поддержание и реализацию проектов по сохранению биоразнообразия России, а также на освещение
+                            вопросов и проблем, связанных с экологией, и помощь в их решении.
+                        </p>
+
+                        <ul class="tab-list">
+                            <li class="tab-item">
+                                <div class="item-icon">
+                                    <ion-icon name="checkmark-circle"></ion-icon>
+                                </div>
+                                <p class="tab-text">Заповедники</p>
+                            </li>
+
+                            <li class="tab-item">
+                                <div class="item-icon">
+                                    <ion-icon name="checkmark-circle"></ion-icon>
+                                </div>
+                                <p class="tab-text">Национальные парки</p>
+                            </li>
+
+                            <li class="tab-item">
+                                <div class="item-icon">
+                                    <ion-icon name="checkmark-circle"></ion-icon>
+                                </div>
+                                <p class="tab-text">Визит-центры</p>
+                            </li>
+                        </ul>
+
+                        <button class="btn btn-secondary">
+                            <span>Узнать больше</span>
+                            <ion-icon aria-hidden="true" name="heart-outline"></ion-icon>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="h2 section-title">100+ успешных проектов</h2>
+                    <button class="btn btn-outline">
+                        <span>Рассказать о проблеме</span>
+                        <ion-icon aria-hidden="true" name="heart-outline"></ion-icon>
+                    </button>
+                </div>
+                <figure class="cta-banner">
+                    <img alt="Fox" class="img-cover" height="228" loading="lazy" width="520"
+                         src="./assets/images/cta-banner.jpg"
+                    />
+                </figure>
+            </div>
+        </section>
+
+        <section class="section service" id="service" style="background-image: url('./assets/images/service-map.png')">
+            <div class="container">
+                <p class="section-subtitle">
+                    <img alt="Wavy line" height="7" src="./assets/images/subtitle-img-green.png" width="32"/>
+                    <span>Наша деятельность</span>
+                </p>
+
+                <h2 class="h2 section-title">Реализованные проекты, <strong>которыми мы гордимся</strong></h2>
+
+                <ul class="service-list">
+                    <li>
+                        <div class="service-card">
+                            <div class="card-icon">
+                                <ion-icon name="leaf-outline"></ion-icon>
+                            </div>
+
+                            <h3 class="h3 card-title">Полистовский заповедник</h3>
+
+                            <p class="card-text">Помощь в приобретении снегоболотохода ТРЭКОЛ</p>
+
+                            <a class="btn-link" href="#">
+                                <span>Читать</span>
+                                <ion-icon aria-hidden="true" name="arrow-forward"></ion-icon>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="service-card">
+                            <div class="card-icon">
+                                <ion-icon name="earth-outline"></ion-icon>
+                            </div>
+                            <h3 class="h3 card-title">Заповедные пчёлы Башкирии</h3>
+                            <p class="card-text">Сохранение естественной среды обитания диких пчёл.</p>
+                            <a class="btn-link" href="#">
+                                <span>Узнать больше</span>
+                                <ion-icon aria-hidden="true" name="arrow-forward"></ion-icon>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="service-card">
+                            <div class="card-icon">
+                                <ion-icon name="flower-outline"></ion-icon>
+                            </div>
+                            <h3 class="h3 card-title">Заповедник "Оренбургский"</h3>
+                            <p class="card-text">Финансирование строительства Визит-Центра</p>
+                            <a class="btn-link" href="#">
+                                <span>Узнать больше</span>
+                                <ion-icon aria-hidden="true" name="arrow-forward"></ion-icon>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="service-card">
+                            <div class="card-icon">
+                                <ion-icon name="boat-outline"></ion-icon>
+                            </div>
+                            <h3 class="h3 card-title">Заповедник "Хакасский"</h3>
+                            <p class="card-text">Помощь в покупке фотоловушек</p>
+                            <a class="btn-link" href="#">
+                                <span>Узнать больше</span>
+                                <ion-icon aria-hidden="true" name="arrow-forward"></ion-icon>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section donate" id="donate">
+            <div class="container">
+                <ul class="donate-list">
+                    <li>
+                        <div class="donate-card">
+                            <figure class="card-banner">
+                                <img alt="Elephant" class="img-cover" height="325" loading="lazy"
+                                     src="./assets/images/donate-1.jpg" width="520"/>
+                            </figure>
+
+                            <div class="card-content">
+                                <div class="progress-wrapper">
+                                    <p class="progress-text">
+                                        <span>Собрано</span>
+                                        <data value="256">₽256000</data>
+                                    </p>
+
+                                    <data class="progress-value" value="83">83%</data>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="progress"></div>
+                                </div>
+                                <h3 class="h3 card-title">Создание музея природы</h3>
+                                <div class="card-wrapper">
+                                    <p class="card-wrapper-text">
+                                        <span>Цель</span>
+                                        <data class="green" value="34562">₽30000</data>
+                                    </p>
+                                    <p class="card-wrapper-text">
+                                        <span>Осталось</span>
+                                        <data class="yellow" value="562">₽56200</data>
+                                    </p>
+                                    <button class="btn btn-secondary">
+                                        <span>Помочь</span>
+                                        <ion-icon aria-hidden="true" name="heart-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </div>
+                    </li>
+
+                    <li>
+                        <div class="donate-card">
+                            <figure class="card-banner">
+                                <img alt="Elephant" class="img-cover" height="325" loading="lazy"
+                                     src="./assets/images/donate-4.jpg" width="520"/>
+                            </figure>
+
+                            <div class="card-content">
+                                <div class="progress-wrapper">
+                                    <p class="progress-text">
+                                        <span>Собрано</span>
+                                        <data value="256">₽256000</data>
+                                    </p>
+                                    <data class="progress-value" value="83">83%</data>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="progress"></div>
+                                </div>
+                                <h3 class="h3 card-title">Создание лесного питомника</h3>
+                                <div class="card-wrapper">
+                                    <p class="card-wrapper-text">
+                                        <span>Цель</span>
+                                        <data class="green" value="34562">₽30000</data>
+                                    </p>
+                                    <p class="card-wrapper-text">
+                                        <span>Осталось</span>
+                                        <data class="yellow" value="562">₽56200</data>
+                                    </p>
+                                </div>
+                                <button class="btn btn-secondary">
+                                    <span>Помочь</span>
+                                    <ion-icon aria-hidden="true" name="heart-outline"></ion-icon>
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="testi">
+            <div class="testi-content">
+                <p class="section-subtitle">
+                    <img alt="Wavy line" height="7" src="./assets/images/subtitle-img-green.png" width="32"/>
+                    <span>Слово основателя</span>
+                </p>
+
+                <h2 class="h2 section-title">
+                    Наша цель - <strong>сберечь природу</strong>
+                </h2>
+
+                <div class="testi-card">
+                    <figure class="card-avatar">
+                        <img
+                            alt="Woman" height="60" loading="lazy" width="60"
+                            src="./assets/images/testi-avatar.png"
+                        />
+                    </figure>
+
+                    <div>
+                        <blockquote class="testi-text">
+                            В Конституции нашей страны закреплены право каждого гражданина России на благоприятную
+                            окружающую среду, а также обязанность каждого «сохранять природу и окружающую среду, бережно
+                            относиться к природным богатствам»
+                        </blockquote>
+
+                        <h3 class="testi-name">Наталья Торнквист</h3>
+
+                        <p class="testi-title">Основатель фонда</p>
+                    </div>
+                </div>
+            </div>
+
+            <figure class="testi-banner">
+                <img alt="Blackbear" class="img-cover" height="846" loading="lazy" src="./assets/images/bear.jpeg" width="960"/>
+            </figure>
+        </section>
+
+        <section class="section partner">
+            <div class="container">
+                <a class="partner-logo" href="#">
+                    <img
+                            alt="Non Profit Agency" class="gray" height="55" loading="lazy" width="163"
+                            src="./assets/images/partner-2.png"
+                    />
+                </a>
+
+                <a class="partner-logo" href="#">
+                    <img
+                            alt="Rise Hand Help Us" class="gray" height="55" loading="lazy" width="149"
+                            src="./assets/images/partner-3.png"
+                    />
+                </a>
+
+                <a class="partner-logo" href="#">
+                    <img
+                            alt="Helping" class="gray" height="58" loading="lazy" width="169"
+                            src="./assets/images/partner-4.png"
+                    />
+                </a>
+            </div>
+        </section>
+
+        <section class="section event" id="event">
+            <div class="container">
+                <p class="section-subtitle">
+                    <img alt="Wavy line" height="7" src="./assets/images/subtitle-img-green.png" width="32"
+                    />
+                    <span>Ближайшие мероприятия</span>
+                    <img alt="Wavy line" height="7" src="./assets/images/subtitle-img-green.png" width="32"/>
+                </p>
+                <h2 class="h2 section-title">
+                    Участвуйте в наших мероприятиях - <strong>поможем природе вместе!</strong>
+                </h2>
+
+                <ul class="event-list">
+                    <li>
+                        <div class="event-card">
+                            <time class="card-time" datetime="01-05">
+                                <span class="month">Янв</span>
+
+                                <span class="date">05</span>
+                            </time>
+
+                            <div class="wrapper">
+                                <div class="card-content">
+                                    <p class="card-subtitle">Онлайн</p>
+
+                                    <h3 class="card-title">
+                                        Заповедное Присурье — Для природы! Для людей!
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Подробности мероприятия
+                                    </p>
+                                </div>
+
+                                <button class="btn btn-white">
+                                    <span>Участвовать</span>
+
+                                    <ion-icon aria-hidden="true" name="arrow-forward"></ion-icon>
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="event-card">
+                            <time class="card-time" datetime="02-23">
+                                <span class="month">Фев</span>
+
+                                <span class="date">23</span>
+                            </time>
+
+                            <div class="wrapper">
+                                <div class="card-content">
+                                    <p class="card-subtitle">Онлайн</p>
+                                    <h3 class="card-title">Усыновление Фондом жеребят</h3>
+                                    <p class="card-text">Подробности мероприятия</p>
+                                </div>
+                                <button class="btn btn-white">
+                                    <span>Участвовать</span>
+                                    <ion-icon aria-hidden="true" name="arrow-forward"></ion-icon>
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="insta-post">
+            <ul class="insta-post-list">
+                <li class="insta-post-item">
+                    <a class="insta-post-link" href="#">
+                        <img alt="Lion" class="img-cover" height="300" loading="lazy" width="320"
+                             src="./assets/images/insta-1.jpg"/>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+
+                <li class="insta-post-item">
+                    <a class="insta-post-link" href="#">
+                        <img alt="Deer" class="img-cover" height="300" loading="lazy" width="320"
+                             src="./assets/images/insta-2.jpg"/>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+
+                <li class="insta-post-item">
+                    <a class="insta-post-link" href="#">
+                        <img alt="Wild Bear" class="img-cover" height="300" loading="lazy" width="320"
+                             src="./assets/images/insta-3.jpg"/>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+
+                <li class="insta-post-item">
+                    <a class="insta-post-link" href="#">
+                        <img alt="Deer" class="img-cover" height="300" loading="lazy" width="320"
+                             src="./assets/images/insta-4.jpg"/>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+
+                <li class="insta-post-item">
+                    <a class="insta-post-link" href="#">
+                        <img alt="Horses" class="img-cover" height="300" loading="lazy" width="320"
+                             src="./assets/images/insta-5.jpg"/>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </article>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p class="copyright">Все права защищены, 2022 <a class="copyright-link" href="#">Возрождение природы</a>.</p>
+    </div>
+</footer>
+
+<script src="./assets/js/script.js"></script>
+<script
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        type="module"
+></script>
+<script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+></script>
+</body>
+</html>
